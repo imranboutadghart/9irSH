@@ -1,0 +1,10 @@
+*
+!Makefile
+!.gitignore
+!src
+!src/*
+!src/*/*.c
+!include
+!include/*
+!BACKLOG.md
+!README.md
