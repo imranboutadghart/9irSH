@@ -6,7 +6,7 @@
 /*   By: iboutadg <iboutadg@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/16 03:12:35 by iboutadg          #+#    #+#             */
-/*   Updated: 2024/09/29 00:40:57 by iboutadg         ###   ########.fr       */
+/*   Updated: 2024/09/29 02:01:40 by iboutadg         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,8 +24,6 @@
 # define ERR_NOT_FND      "Command not found\n"
 # define ERR_AMBIG        "Ambiguous file\n"
 # define ERR_ISDIR        "Is a directory\n"
-
-# define FAIL EXIT_FAILURE
 
 # define MAX_PATH_NAME 4096
 

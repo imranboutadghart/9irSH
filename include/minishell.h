@@ -6,7 +6,7 @@
 /*   By: iboutadg <iboutadg@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 22:23:11 by l3zii             #+#    #+#             */
-/*   Updated: 2024/09/29 00:46:32 by iboutadg         ###   ########.fr       */
+/*   Updated: 2024/09/29 02:05:58 by iboutadg         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,8 +33,11 @@
 
 # define BLANK "\t\n\v "
 # define SUCCESS 0
-# define FAILURE 0
+# define EXIT_FAILURE 1
+# define FAIL EXIT_FAILURE
 # define NAME "9irSH"
+# define GREEN "\033[0;32m"
+# define RESET "\033[0m"
 
 /***************** ENUMS *****************/
 

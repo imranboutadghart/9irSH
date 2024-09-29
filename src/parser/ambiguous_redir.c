@@ -6,7 +6,7 @@
 /*   By: iboutadg <iboutadg@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 22:13:34 by l3zii             #+#    #+#             */
-/*   Updated: 2024/09/29 00:46:32 by iboutadg         ###   ########.fr       */
+/*   Updated: 2024/09/29 02:02:27 by iboutadg         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ size_t	check_ambiguous_redirs(t_token *tok)
 			free_words(tok);
 			original_filename(tok);
 			if (g_root.error->code != 0)
-				return (FAILURE);
+				return (FAIL);
 		}
 		else if (flag == 0 && tok->type == WORD)
 		{

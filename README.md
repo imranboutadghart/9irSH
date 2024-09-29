@@ -25,7 +25,7 @@ make
 To start the shell, simply run:
 
 ```
-./minishell
+./9irsh
 ```
 
 You will be greeted with a prompt. Type your commands and hit Enter!

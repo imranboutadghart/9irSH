@@ -6,7 +6,7 @@
 /*   By: iboutadg <iboutadg@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/15 11:32:33 by l3zii             #+#    #+#             */
-/*   Updated: 2024/09/29 00:46:32 by iboutadg         ###   ########.fr       */
+/*   Updated: 2024/09/29 02:02:27 by iboutadg         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,7 +88,7 @@ size_t	paste_var_value(char *line, char *new, size_t *idx, size_t *new_idx)
 	index = 0;
 	key = get_var_key_name(line, &index);
 	if (!key)
-		return (FAILURE);
+		return (FAIL);
 	*idx += index + 1;
 	index = 0;
 	value = get_env(key);
@@ -114,7 +114,7 @@ size_t	paste_exitstatus_value(char *new, size_t *idx, size_t *new_idx)
 	index = 0;
 	exit_status_str = ft_itoa(g_root.exit_status);
 	if (!exit_status_str)
-		return (FAILURE);
+		return (FAIL);
 	while (exit_status_str[index])
 	{
 		new[index] = exit_status_str[index];

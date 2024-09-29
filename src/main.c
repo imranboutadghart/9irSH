@@ -6,7 +6,7 @@
 /*   By: iboutadg <iboutadg@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 22:23:22 by l3zii             #+#    #+#             */
-/*   Updated: 2024/09/29 00:46:32 by iboutadg         ###   ########.fr       */
+/*   Updated: 2024/09/29 02:06:06 by iboutadg         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ int	main(void)
 		if (!isatty(STDIN_FILENO))
 			line = readline("");
 		else
-			line = readline("> ");
+			line = readline(GREEN"󱞪 "RESET);
 		if (!line)
 			break ;
 		g_root.cmds = parser(line);

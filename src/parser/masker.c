@@ -6,7 +6,7 @@
 /*   By: iboutadg <iboutadg@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 22:12:35 by l3zii             #+#    #+#             */
-/*   Updated: 2024/09/29 00:46:32 by iboutadg         ###   ########.fr       */
+/*   Updated: 2024/09/29 02:03:41 by iboutadg         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,5 +101,5 @@ int	*copy_line_to_ints(char *line)
 		return (bytes);
 	}
 	g_root.error->code = malloc_fail;
-	return (FAILURE);
+	return (NULL);
 }

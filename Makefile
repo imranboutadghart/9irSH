@@ -1,7 +1,7 @@
-# GOOFY AHH COMMENT
+# GOOFY COMMENT
 CC:=cc
 CFLAGS:= -Wextra -Wall -Werror
-NAME:= minishell
+NAME:= 9irsh
 INCLUDE_DIR:=include
 BIN_DIR:=bin
 
